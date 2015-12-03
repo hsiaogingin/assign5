@@ -298,9 +298,9 @@ void draw()
 void drawBg(){
       image(bg1,-640+bg1Pos,0);
       image(bg2,-640+bg2Pos,0);
-      bg1Pos += 10;
+      bg1Pos += 5;
       bg1Pos = bg1Pos % 1280;
-      bg2Pos += 10;
+      bg2Pos += 5;
       bg2Pos = bg2Pos % 1280;
 }
 
